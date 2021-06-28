@@ -1,0 +1,664 @@
+diff --git a/listing.asm b/listing.asm
+index bf99b12..b1c9493 100644
+--- a/listing.asm
++++ b/listing.asm
+@@ -110877,22 +110877,18 @@ LAB_134e41:
+         LAYERCTRL 1n, 13n, bmn[1000n,0n,0n,0n,0n,0n,0n,0n]
+         WIPE 0n, 0n, 60n, bmn[0n,0n,0n,0n,0n,0n,0n,0n]
+         WIPEWAIT
+-        VOICEPLAY S"S00/n/oni001", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/oni002", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/oni003", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/oni004", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/oni005", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/oni001.\"At first I was a bit anxious.\""
++		WAIT 0b, 60n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/oni002.\"Hurting someone was something I never even considered.\""
++		WAIT 0b, 60n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/oni003.\"Nevertheless, the anxiety then gave place to loneliness, doubt and more. And then... that wicked murderous intent eventually took control of my mind.\""
++		WAIT 0b, 60n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/oni004.\"The boy took the first step towards an unrecoverable daily life.\""
++		WAIT 0b, 60n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/oni005.\"Not even realising that he was walking into the abyss.\""
++		WAIT 0b, 60n
+         MSGCLOSE 0b
++		WAIT 0b, 30n
+         LAYERBACK 5n
+         LAYERBACK 6n
+         LAYERBACK 7n
+@@ -111045,14 +111041,11 @@ LAB_134e41:
+         LAYERCTRL -2n, 31n, bmn[0n,30n,2n,0n,0n,0n,0n,0n]
+         LAYERWAIT -2n, n[28n]
+         LAYERWAIT -2n, n[31n]
+-        VOICEPLAY S"S00/n/oni008", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/oni009", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
++		MSGSET 0mi, 1b, -1n, L"@r@vS00/n/oni008.\"A tragedy born from the desire to believe.\""
++		WAIT 0b, 30n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/oni009.\"Are those tears of repentance or tears of resentment?\""
++		WAIT 0b, 30n
+         MSGCLOSE 0b
+-        WAIT 0b, 30n
+         LAYERBACK 16n
+         LAYERLOAD 16n, 2n, 0n, bmn[745n,0n,0n,0n,0n,0n,0n,0n]
+         LAYERCTRL 16n, 21n, bmn[@0x0014,0n,0n,0n,0n,0n,0n,0n]
+@@ -111187,19 +111180,16 @@ LAB_13532b:
+         LAYERCTRL 1n, 13n, bmn[1000n,0n,0n,0n,0n,0n,0n,0n]
+         WIPE 0n, 0n, 60n, bmn[0n,0n,0n,0n,0n,0n,0n,0n]
+         WIPEWAIT
+-        VOICEPLAY S"S00/n/wata001", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/wata002", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/wata003", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/wata004", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/wata001.\"I really meant to say things differently.\""
++		WAIT 0b, 60n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/wata002.\"I really didn't want to feel this way.\""
++		WAIT 0b, 60n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/wata003.\"Miscommunication drove in the wedge, those stuck in apprehension driven to fear.\""
++		WAIT 0b, 60n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/wata004.\"Nobody can stop it now, as cold hard emotion claws deeply and cruelly at my bared heart.\""
++		WAIT 0b, 60n
+         MSGCLOSE 0b
++		WAIT 0b, 30n
+         LAYERBACK 5n
+         LAYERBACK 6n
+         LAYERBACK 7n
+@@ -111352,12 +111342,10 @@ LAB_13532b:
+         LAYERCTRL -2n, 31n, bmn[0n,30n,2n,0n,0n,0n,0n,0n]
+         LAYERWAIT -2n, n[28n]
+         LAYERWAIT -2n, n[31n]
+-        VOICEPLAY S"S00/n/wata007", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/wata008", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
++		MSGSET 0mi, 1b, -1n, L"@r@vS00/n/wata007.\"At that time, why did I...? I whisper in remorse.\""
++		WAIT 0b, 60n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/wata008.\"But now, those words simply rang hollow.\""
++		WAIT 0b, 60n
+         MSGCLOSE 0b
+         WAIT 0b, 30n
+         LAYERBACK 16n
+@@ -111494,18 +111482,14 @@ LAB_135805:
+         LAYERCTRL 1n, 13n, bmn[1000n,0n,0n,0n,0n,0n,0n,0n]
+         WIPE 0n, 0n, 60n, bmn[0n,0n,0n,0n,0n,0n,0n,0n]
+         WIPEWAIT
+-        VOICEPLAY S"S00/n/tata001", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/tata002", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/tata003", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/tata004", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/tata001.\"I wholeheartedly wanted to protect her.\""
++		WAIT 0b, 60n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/tata002.\"I wanted, more than anybody else, what was best for her.\""
++		WAIT 0b, 60n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/tata003.\"These emotions borne from kindness eventually became murderous intent, my pure white intentions stained in red and black.\""
++		WAIT 0b, 60n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/tata004.\"And even as I understood that it meant the destruction of the day-to-day life I so wanted to protect...\""
++		WAIT 0b, 60n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -111553,6 +111537,7 @@ LAB_135805:
+         WIPEWAIT
+         VOICEPLAY S"S00/n/tata006", 1000n, 1n
+         VOICEWAIT 2n
++        WAIT 0b, 60n
+         BGMSTOP 120n
+         SESTOP 7n, 120n
+         LAYERBACK 2n
+@@ -111659,11 +111644,9 @@ LAB_135805:
+         LAYERCTRL -2n, 31n, bmn[0n,30n,2n,0n,0n,0n,0n,0n]
+         LAYERWAIT -2n, n[28n]
+         LAYERWAIT -2n, n[31n]
+-        VOICEPLAY S"S00/n/tata007", 1000n, 1n
+-        VOICEWAIT 2n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/tata007.\"Where did I go wrong?\""
+         WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/tata008", 1000n, 1n
+-        VOICEWAIT 2n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/tata008.\"Looking for the answer, the tragedy spreads ever wilder.\""
+         WAIT 0b, 60n
+         MSGCLOSE 0b
+         WAIT 0b, 30n
+@@ -111801,22 +111784,18 @@ LAB_135cdf:
+         LAYERCTRL 1n, 13n, bmn[1000n,0n,0n,0n,0n,0n,0n,0n]
+         WIPE 0n, 0n, 60n, bmn[0n,0n,0n,0n,0n,0n,0n,0n]
+         WIPEWAIT
+-        VOICEPLAY S"S00/n/tsuki001", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/tsuki002", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/tsuki003", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/tsuki004", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/tsuki005", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
++        MSGSET 999801mi, 1b, -1n, L"@r@vS00/n/tsuki001.\"They strove to live a life full of happiness.\""
++		WAIT 0b, 60n
++        MSGSET 999802mi, 1b, -1n, L"@r@vS00/n/tsuki002.\"They were supposed to be bound by trust and mutual understanding.\""
++		WAIT 0b, 60n
++        MSGSET 999803mi, 1b, -1n, L"@r@vS00/n/tsuki003.\"Kindness, compassion, trust, affection.\""
++		WAIT 0b, 60n
++        MSGSET 999804mi, 1b, -1n, L"@r@vS00/n/tsuki004.\"When those feelings are turned inside out, white transforms to black.\""
++		WAIT 0b, 60n
++        MSGSET 999805mi, 1b, -1n, L"@r@vS00/n/tsuki005.\"Their fragile bonds collapse, and an unimaginable nightmare emerges from the darkness in their hearts.\""
++		WAIT 0b, 60n
+         MSGCLOSE 0b
++        WAIT 0b, 30n
+         LAYERBACK 5n
+         LAYERBACK 6n
+         LAYERBACK 7n
+@@ -112011,12 +111990,10 @@ LAB_135cdf:
+         LAYERCTRL -2n, 31n, bmn[0n,30n,2n,0n,0n,0n,0n,0n]
+         LAYERWAIT -2n, n[28n]
+         LAYERWAIT -2n, n[31n]
+-        VOICEPLAY S"S00/n/tsuki008", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/tsuki009", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
++        MSGSET 999807mi, 1b, -1n, L"@r@vS00/n/tsuki008.\"There was no reason for everyone to feel such hatred.\""
++		WAIT 0b, 60n
++        MSGSET 999808mi, 1b, -1n, L"@r@vS00/n/tsuki009.\"But a little misunderstanding changed everything.\""
++		WAIT 0b, 60n
+         MSGCLOSE 0b
+         WAIT 0b, 30n
+         LAYERBACK 16n
+@@ -112153,19 +112130,16 @@ LAB_1362c7:
+         LAYERCTRL 1n, 13n, bmn[1000n,0n,0n,0n,0n,0n,0n,0n]
+         WIPE 0n, 0n, 60n, bmn[0n,0n,0n,0n,0n,0n,0n,0n]
+         WIPEWAIT
+-        VOICEPLAY S"S00/n/tarai001", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/tarai002", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/tarai003", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/tarai004", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/tarai001.\"All people seek to escape from hardship.\""
++		WAIT 0b, 60n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/tarai002.\"All people seek dreams beyond their reality.\""
++		WAIT 0b, 60n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/tarai003.\"What on earth drives them to continue turning their eyes from the obstacles they must surmount?\""
++		WAIT 0b, 60n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/tarai004.\"And what they may lose in the process.\""
++		WAIT 0b, 60n
+         MSGCLOSE 0b
++        WAIT 0b, 30n
+         LAYERBACK 5n
+         LAYERBACK 6n
+         LAYERBACK 7n
+@@ -112318,12 +112292,10 @@ LAB_1362c7:
+         LAYERCTRL -2n, 31n, bmn[0n,30n,2n,0n,0n,0n,0n,0n]
+         LAYERWAIT -2n, n[28n]
+         LAYERWAIT -2n, n[31n]
+-        VOICEPLAY S"S00/n/tarai007", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/tarai008", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
++		MSGSET 0mi, 1b, -1n, L"@r@vS00/n/tarai007.\"It's not a sin to run away.\""
++		WAIT 0b, 60n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/tarai008.\"But reality is not as sweet as your dreams.\""
++		WAIT 0b, 60n
+         MSGCLOSE 0b
+         WAIT 0b, 30n
+         LAYERBACK 16n
+@@ -112485,19 +112457,16 @@ LAB_1367a8:
+         LAYERCTRL 1n, 13n, bmn[1000n,0n,0n,0n,0n,0n,0n,0n]
+         WIPE 0n, 0n, 60n, bmn[0n,0n,0n,0n,0n,0n,0n,0n]
+         WIPEWAIT
+-        VOICEPLAY S"S00/n/some001", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/some002", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/some003", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/some004", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/some001.\"A lone girl was spending her days peacefully in a new land.\""
++		WAIT 0b, 60n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/some002.\"But a shadow from the world she left behind suddenly came crashing down.\""
++		WAIT 0b, 60n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/some003.\"Insecurity emerged from her guilty conscience and trust warped into doubt.\""
++		WAIT 0b, 60n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/some004.\"A single day reveals how fragile and fleeting that everyday life veiled in kindness truly was.\""
++		WAIT 0b, 60n
+         MSGCLOSE 0b
++		WAIT 0b, 30n
+         LAYERBACK 5n
+         LAYERBACK 6n
+         LAYERBACK 7n
+@@ -112650,12 +112619,10 @@ LAB_1367a8:
+         LAYERCTRL -2n, 31n, bmn[0n,30n,2n,0n,0n,0n,0n,0n]
+         LAYERWAIT -2n, n[28n]
+         LAYERWAIT -2n, n[31n]
+-        VOICEPLAY S"S00/n/some009", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
+-        VOICEPLAY S"S00/n/some010", 1000n, 1n
+-        VOICEWAIT 2n
+-        WAIT 0b, 60n
++		MSGSET 0mi, 1b, -1n, L"@r@vS00/n/some009.\"She just wanted to be happy.\""
++		WAIT 0b, 60n
++        MSGSET 0mi, 1b, -1n, L"@r@vS00/n/some010.\"Nevertheless, the girl was unqualified for even that.\""
++		WAIT 0b, 60n
+         MSGCLOSE 0b
+         WAIT 0b, 30n
+         LAYERBACK 16n
+@@ -184628,7 +184595,7 @@ ENTRY_101_3200:
+         LAYERCTRL -2n, 31n, bmn[0n,15n,2n,0n,0n,0n,0n,0n]
+         LAYERWAIT -2n, n[28n]
+         LAYERWAIT -2n, n[31n]
+-        WAIT 0b, 90n
++        WAIT 0b, 300n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -497622,6 +497589,7 @@ ENTRY_201_3550:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
++        MSGINIT 33n
+         WAIT 0b, 500n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+@@ -521750,7 +521718,7 @@ ENTRY_202_3600:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 500n
++        WAIT 0b, 1000n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -585768,7 +585736,9 @@ ENTRY_203_3650:
+         SEWAIT 0n, 2n
+         MSGINIT 33n
+         MSGSET 73125mi, 1b, -1n, L"@r@vS07/05/hrika_0000.@s100.ご注意。@rこの後に流れるオープニングアニメーションは、@r本編のネタバレを多く含んでいます。@rまた、昼壊し編の元になった「ひぐらしデイブレイク」が@r出典となる為、一部内容が異なりますのです。@rご了承くださいなのですよ、にぱー☆"
+-        MSGCLOSE 0b
++        SELECT 0s, 0s, @0x0000, 4095n, S"Skipping Hirukowashi", S["I want to skip it.","Continue this chapter."]
++		jeq @0x0000, 0n, SKIP_HIRUKOWASHI
++		MSGCLOSE 0b
+         SESTOPALL 10n
+         BGMSTOP 10n
+         WAIT 0b, 10n
+@@ -616586,6 +616556,9 @@ ENTRY_3663:
+         WAIT 0b, 300n
+         LAYERBACK 2n
+         LAYERUNLOAD 2n, 0n
++SKIP_HIRUKOWASHI:
++        MSGCLOSE 0b
++		MSGINIT 0n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -708366,6 +708339,7 @@ ENTRY_3760:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
++		MSGINIT 33n
+         MSGSET 84555mi, 1b, -1n, L"@c969.@r私がやらなきゃいけない残りの作業は、すべての後始末だった。"
+         MSGCLOSE 0b
+         LAYERBACK 5n
+@@ -708397,13 +708371,6 @@ ENTRY_3760:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        MSGSET 84556mi, 1b, -1n, L"@c969.@rこうなった以上は、覚悟もできてくる。だから、別にこんな作業はへっちゃらだった。"
+-        MSGSET 84557mi, 1b, -1n, L"@c969.@rそれに、こいつらがいなくなったことで全ての悩みから解放されたのだ。"
+-        MSGSET 84558mi, 1b, -1n, L"@c969.@rそれと引き換えなら、これくらいのこと…………耐えてみせる。"
+-        MSGSET 84559mi, 1b, -1n, L"@c969.@r……振り返るな。@kいま立ち止まってしまったら、もうこの先一歩も進めなくなる。"
+-        MSGSET 84560mi, 1b, -1n, L"@c969.@rどす黒い、まるで重油のようなものが全身にまとわりついて、動くことも、考えることすらできなくなる。"
+-        MSGSET 84561mi, 1b, -1n, L"@c969.@r私が、今できること。@k……それは、どこまでも信じることだ。"
+-        MSGSET 84562mi, 1b, -1n, L"@c969.@rこのゴミ山で、やってしまった……いや、やり遂げたことが、自分にとって究極の選択だったことを――――。"
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -708614,6 +708581,13 @@ ENTRY_3760:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
++        MSGSET 84556mi, 1b, -1n, L"@c969.@rこうなった以上は、覚悟もできてくる。だから、別にこんな作業はへっちゃらだった。"
++        MSGSET 84557mi, 1b, -1n, L"@c969.@rそれに、こいつらがいなくなったことで全ての悩みから解放されたのだ。"
++        MSGSET 84558mi, 1b, -1n, L"@c969.@rそれと引き換えなら、これくらいのこと…………耐えてみせる。"
++        MSGSET 84559mi, 1b, -1n, L"@c969.@r……振り返るな。@kいま立ち止まってしまったら、もうこの先一歩も進めなくなる。"
++        MSGSET 84560mi, 1b, -1n, L"@c969.@rどす黒い、まるで重油のようなものが全身にまとわりついて、動くことも、考えることすらできなくなる。"
++        MSGSET 84561mi, 1b, -1n, L"@c969.@r私が、今できること。@k……それは、どこまでも信じることだ。"
++        MSGSET 84562mi, 1b, -1n, L"@c969.@rこのゴミ山で、やってしまった……いや、やり遂げたことが、自分にとって究極の選択だったことを――――。"
+         MSGSET 84563mi, 1b, -1n, L"@c969.@r……ああ、そう言えば昔、ダム戦争の末期にまさにこの地で、現場監督の殺人事件があったんだっけ。"
+         MSGCLOSE 0b
+         LAYERBACK 5n
+@@ -708743,6 +708717,7 @@ ENTRY_3760:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
++		MSGINIT 0n
+         MSGSET 84567mi, 1b, -1n, L"@c969.@r@bやごうち.@<谷河内@>か高津戸辺りの廃村地区をもっと奥に行けば、未開の山がいくつもある。"
+         MSGSET 84568mi, 1b, -1n, L"@c969.@rそんな山のどこかなら、大丈夫のはずだ。"
+         LAYERBACK 15n
+@@ -868371,7 +868346,7 @@ ENTRY_303_3850:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 700n
+ ENTRY_3851:
+         SAVEINFO 1n, S"#2 事故にあった梨花"
+         AUTOSAVE
+@@ -936905,7 +936880,7 @@ ENTRY_3870:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 720n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -936935,7 +936910,7 @@ ENTRY_3870:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 720n
+         LOGSET L"@r私たちが遊んで回る度に、@r大勢の人が沙都子に声を掛けてくれた。"
+         LOGSET L"@rある人は沙都子の怪我を気遣い、@rある人は沙都子のこれまでに同情し、@rある人はこれからは何かあったら@r頼れと胸を叩いた。"
+         LOGSET L"@rその全てが、@r沙都子にとってはくすぐったいくらいに@r新鮮だったに違いない。"
+@@ -937246,7 +937221,7 @@ ENTRY_3870:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 720n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -937276,7 +937251,7 @@ ENTRY_3870:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 720n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -937306,7 +937281,7 @@ ENTRY_3870:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 720n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -937478,7 +937453,7 @@ ENTRY_3870:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 720n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -937508,7 +937483,7 @@ ENTRY_3870:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 720n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -937568,7 +937543,7 @@ ENTRY_3870:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 720n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -937598,7 +937573,7 @@ ENTRY_3870:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 720n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -937628,7 +937603,7 @@ ENTRY_3870:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 720n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -937822,7 +937797,7 @@ ENTRY_3870:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 720n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -937852,7 +937827,7 @@ ENTRY_3870:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 720n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -938114,7 +938089,7 @@ ENTRY_3870:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 720n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -938144,7 +938119,7 @@ ENTRY_3870:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 720n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -938298,7 +938273,7 @@ ENTRY_3870:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 720n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -938328,7 +938303,7 @@ ENTRY_3870:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 720n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -938358,7 +938333,7 @@ ENTRY_3870:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 720n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -938388,7 +938363,7 @@ ENTRY_3870:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 720n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -938418,7 +938393,7 @@ ENTRY_3870:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 720n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -938448,7 +938423,7 @@ ENTRY_3870:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 720n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -938478,7 +938453,7 @@ ENTRY_3870:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 720n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -938508,7 +938483,7 @@ ENTRY_3870:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 720n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -938538,7 +938513,7 @@ ENTRY_3870:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 720n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -938568,7 +938543,7 @@ ENTRY_3870:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 360n
++        WAIT 0b, 720n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -940707,7 +940682,7 @@ ENTRY_3872:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        WAIT 0b, 300n
++        WAIT 0b, 600n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -1330416,7 +1330391,12 @@ ENTRY_406_4150:
+         call FUN_WIPE
+         pop a[@0x000a]
+         pop a[@0x0009]
+-        MSGSET 145416mi, 1b, -1n, L"@r@vS16/00/VV_shino_1001.――それは、とても古い昔の、おとぎ話。"
++		MSGINIT 33n
++		MSGSET 0mi, 1b, -1n, L"@rWarning.@rThis chapter is not yet translated.@rYou will be given an option to skip this chapter@rand mark it as finished@rso You can continue playing next chapters."
++        SELECT 0s, 0s, @0x0000, 4095n, S"Skipping Kotohogushi", S["I want to skip it.","Continue this chapter."]
++		jeq @0x0000, 0n, SKIP_KOTOHOGUSHI
++		MSGINIT 0n
++        MSGSET 145416mi, 1b, -1n, L"@r@vS16/00/VV_shino_1001.――それは、とても古い昔の、おとぎ話。"
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -1415108,6 +1415088,9 @@ ENTRY_4163:
+         WAIT 0b, 300n
+         LAYERBACK 2n
+         LAYERUNLOAD 2n, 0n
++SKIP_KOTOHOGUSHI:
++        MSGCLOSE 0b
++		MSGINIT 0n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n
+@@ -1415222,6 +1415205,9 @@ ENTRY_407_4200:
+         pop a[@0x0009]
+         WAIT 0b, 60n
+         MSGINIT 33n
++		MSGSET 0mi, 1b, -1n, L"@rWarning.@rThis chapter is not yet translated.@rYou will be given an option to skip this chapter@rand mark it as finished@rso You can continue playing next chapters."
++        SELECT 0s, 0s, @0x0000, 4095n, S"Skipping Hajisarashi", S["I want to skip it.","Continue this chapter."]
++		jeq @0x0000, 0n, SKIP_HAJISARASHI
+         MSGSET 152747mi, 1b, -1n, L"魅音@r@vS23/03/VTH_mion1001.えー、この物語はフィクションです。@k@r@vS23/03/VTH_mion1002.間違いなくフィクションです。@k@r@vS23/03/VTH_mion1003.よって実在する場所、人物、団体名などとは一切関係ありません。@k@r@vS23/03/VTH_mion1004.……よいこのみんな、真似しちゃダメだよ？"
+         MSGCLOSE 0b
+         MSGINIT 0n
+@@ -1438254,6 +1438240,9 @@ ENTRY_4209:
+         LAYERUNLOAD 0n, 0n
+         LAYERBACK 2n
+         LAYERUNLOAD 2n, 0n
++SKIP_HAJISARASHI:
++        MSGCLOSE 0b
++		MSGINIT 0n
+         MSGCLOSE 0b
+         LAYERBACK 5n
+         LAYERBACK 6n

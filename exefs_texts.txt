@@ -1,0 +1,35 @@
+0x13886E	OK	確認
+0x138CAA	If Auto Sleep is enabled in System Settings,@rit is temporarily suppressed while auto mode@ris in progress.	本体の設定で自動スリープを有効にしている場合、オートモード進行中は一時的に自動スリープが抑制されます。
+0x1413d7	Do you want to load this save?	ロードします。よろしいですか？
+0x13885d	Yes	はい
+0x138864	No	いいえ
+0x138971	Complete:	達成率:
+0x141349	Do you want to overwrite this save?	セーブを行います。@r内容は上書きされますが、よろしいですか？
+0x1413A3	Do you want to save in this slot?	セーブを行います。よろしいですか？
+0x140FBC	Save data is being updated.@rPlease don't turn off the console!	セーブデータを更新中です。@r電源を切ったり、アプリケーションを終了したりしないでください。
+0x138738	Do you want to go back to Main Menu?	ゲームを終了して、タイトル画面に戻ります。@rよろしいですか？
+0x138848	%dh %dm	%d時間 %d分
+0x138857	%dm	%d分
+0x144DAB	Continue story	本編を続ける
+0x144DBE	View Tips	TIPSを見る
+0x138A4D	"	『
+0x138A51	"@rPerform a shortcut to this chapter?	』へのショートカットを実行します。@rよろしいですか？
+0x138792	Do you want to go back to Tips Menu?	TIPSメニューに戻ります。@rよろしいですか？
+0x141405	Do you want to delete this save?	このセーブデータを削除します。よろしいですか？
+0x1398CD	Do you want to jump to this scene?	シーンジャンプを実行します。@rよろしいですか？
+0x13983F	Current position	ゲーム内現在位置
+0x13982C	Cursor position	カーソル位置
+0x139858	Cursor position/Current position	カーソル位置/ゲーム内現在位置
+0x13988A	Bottom	後尾
+0x138682	Do you want to go back@rto previous chapter?	前のチャプターに戻ります。@rよろしいですか？
+0x139825	Top	先頭
+0x13989B	Heroine Selection	ヒロイン選択
+0x1386C4	Do you want to jump@rto next chapter or choice?	次のチャプターか選択肢までスキップします。@rよろしいですか？
+0x1412E2	No Save Data	データがありません
+0x138B98	Leave Satoko and keep my memories	沙都子を見殺しにして記憶を残す
+0x138BC6	Save Satoko and lose my memories	沙都子を救いに戻り記憶を捨てる
+0x1387CF	Return to the menu@rof Spinning Fragments?	カケラ紡ぎのメニューに戻ります。@rよろしいですか？
+0x1396DA	Stop spinning fragments@rand go back to Main Menu?	カケラ紡ぎを終了して、タイトル画面に戻ります。@rよろしいですか？
+0x1398AE	Rena	レナ
+0x1398B5	Mion	魅音
+0x1398BC	Satoko	沙都子

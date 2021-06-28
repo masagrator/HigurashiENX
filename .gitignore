@@ -1,0 +1,14 @@
+#Rom Files
+*.rom
+
+#Assembly files
+*.asm
+*.dat
+*.temp
+
+
+#Folders
+atmosphere/
+extracted/
+patch/
+scenario/

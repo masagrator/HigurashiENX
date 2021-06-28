@@ -1,0 +1,9 @@
+[submodule "higurashienx-texts"]
+	path = higurashienx-texts
+	url = https://github.com/masagrator/higurashienx-texts
+[submodule "ShinDataUtil"]
+	path = ShinDataUtil
+	url = https://github.com/DCNick3/ShinDataUtil
+[submodule "images"]
+	path = images
+	url = https://github.com/masagrator/HigurashiENX-images

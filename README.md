@@ -50,6 +50,7 @@ Instructions:
 - It is unknown if mod is compatible with physical version "EG THE BEST". Game must have titleid "0100F6A00A684000" which is used by first physical release and E-Shop version.
 - `Oyashiro Shock` is not translated because of complicated nature of answers stored in executable which without making plugin seems impossible/very hard to achieve.
 - PIC images are packed to 7z for storage purposes as they are currently uncompressed. When they will be using compression, they will be stored unpacked as png.
+- Kageboushi, Hajisarashi and Kotohogushi have an option to mark those chapters as finished without playing them at the beginning of each one, because finishing them is required to play next chapters.
 
 ---
 

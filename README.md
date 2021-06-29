@@ -118,6 +118,7 @@ TIPS: 164/188
 
 # Plans
 
+- Add translations of LOGSET entries
 - Cut size of patch.rmm by repacking PICs with compression
 - Replace all machine translated parts with real translation
 - Polish style matching of images from the same group

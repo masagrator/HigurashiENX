@@ -50,6 +50,7 @@ Instructions:
 - It is unknown if mod is compatible with physical version "EG THE BEST". Game must have titleid "0100F6A00A684000" which is used by first physical release and E-Shop version.
 - `Oyashiro Shock` is not translated because of complicated nature of answers stored in executable which without making plugin seems impossible/very hard to achieve.
 - PIC images are packed to 7z for storage purposes as they are currently uncompressed. When they will be using compression, they will be stored unpacked as png.
+- Kageboushi, Hajisarashi and Kotohogushi have an option to mark those chapters as finished without playing them at the beginning of each one, because finishing them is required to play next chapters.
 
 ---
 
@@ -151,10 +152,10 @@ Other:
 ---
 
 # Thanks to
-- MangaGamer for providing translation for 8 main chapters. Official Steam release available here: https://store.steampowered.com/bundle/709/Higurashi_When_They_Cry_Hou/
-- [07th mod](https://07th-mod.com/home/) for tremendous work put to translations of console exclusive chapters and help with understanding some technical things about game engine
-- Kaitoein & Bonciel - for Saikoroshi translation
-- xPearse Scanlations - for providing translations for Hou chapters (those are using machine translation with proofreading)
+- MangaGamer for releasing 8 main chapters in English (not directly involved with this project). Official Steam release available here: https://store.steampowered.com/bundle/709/Higurashi_When_They_Cry_Hou/
+- [07th mod](https://07th-mod.com/home/) for tremendous work put to translations of console exclusive chapters and help with understanding some technical things about game engine (not directly involved with this project)
+- Kaitoein & Bonciel - for Saikoroshi translation (not directly involved with this project)
+- xPearse Scanlations - for providing machine translations for Hou chapters (not directly involved with this project)
 - [DCNick3](https://github.com/DCNick3) for ShinDataUtil, mainly for scenario decompilator/compilator. Without it this project wouldn't even start.
 - [Neurochitin](https://gitlab.com/Neurochitin) for providing scripts that helped finish this project faster.
 - ~Xanu for help with translating and proofreading some parts of game

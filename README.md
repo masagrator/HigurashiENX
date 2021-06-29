@@ -38,18 +38,18 @@ Instructions:
 # Notes
 - Project started at 4th January 2021, first release was in 29th June 2021
 - This project is practically in infinite beta. Expect bugs like not playing audio files, weird break lines, crashing related to broken tags, etc.
-- This project was not made with purpose to make easier to translate to other languages. JSON files are containing text only for sending corrections and translation updates. It doesn't have any readable way to understand how SELECT is forcing jumps and sets flags.
+- This project was not made with purpose to make easier to translate to other languages. JSON files are containing texts only for sending corrections and translation updates. They don't have any readable way to understand how SELECT is forcing jumps and sets flags.
 - Script supports mainly Shift-JIS, so implementing any other language needs additional effort. PC release is not bothered by this limiation.
 - Game doesn't support italics, they are changed so word is between `*`
-- Mod is using special patch that not only translates strings stored in executable, but also allows for loading third ROM file on top of data.rom and patch.rom. This allows us to share file with only those files that are necessary for this mod (thanks for DCNick3 for that).
+- Mod is using special patch that not only translates strings stored in executable, but also allows for loading third ROM file on top of data.rom and patch.rom. This allows us to share ROM with only those files that are necessary for this mod (thanks for DCNick3 for that).
 - Currently game is not working on Yuzu. RyujinX status is unknown. https://github.com/yuzu-emu/yuzu/issues/3439
 - We won't work on porting this mod to PS4 version of game.
 - Mod translated only required minimum of images. We are not bothered by images that are using japanese and english texts at the same time (except for wrongly translated images).
 - Mod is using `shindatautil` layouting function for automatic injection of break lines. Game itself is breaking lines by any last fitting character, not by last fitting space only.
 - We are providing support only for Nintendo Switch users with Atmosphere. Any other way of using this mod is not supported by us.
 - It is unknown if mod is compatible with physical version "EG THE BEST". Game must have titleid "0100F6A00A684000" which is used by first physical release and E-Shop version.
-- `Oyashiro Shock` is not translated because of complicated nature of answers stored in executable which without making plugin seems impossible/very hard to achieve.
-- PIC images are packed to 7z for storage purposes as they are currently uncompressed. When they will be using compression, they will be stored unpacked as png.
+- `Oyashiro Shock` is not translated because of complicated nature of answers stored in executable which without making plugin seems impossible/very hard to replace.
+- PIC images are packed to 7z for storage purpose as they are currently uncompressed. When they will be using compression, they will be stored unpacked as png.
 - Kageboushi, Hajisarashi and Kotohogushi have an option to mark those chapters as finished without playing them at the beginning of each one, because finishing them is required to play next chapters.
 
 ---
@@ -64,16 +64,22 @@ Okinomiya Police Station Report:
 - Satoko Route 100% (3.8% Machine Translation)
 - Natsumi Route 100% (30% Machine Translation)
 - Onikakushi 100% (0% Machine Translation)
+- Onikakushi Afterparty 100% (3.9% Machine Translation)
 - Watanagashi 100% (0.03% Machine Translation)
+- Watanagashi Afterparty 100% (1 line Machine Translated)
 - Tatarigoroshi 100% (1.1% Machine Translation)
+- Tatarigoroshi Afterparty 100% (7.4% Machine Translation)
 - Tsukiotoshi 100% (1 line Machine Translated)
 - Taraimawashi 100% (0% Machine Translation)
+- Taraimawashi Afterparty 100% (0% Machine Translation)
 - Someutsushi 100% (0% Machine Translation)
+- Sometsushi Afterparty 100% (0% Machine Translation)
 - Epilogue 100% (0% Machine Translation)
 
 Matropolitan Public Security 7th Room Case File:
 - Prologue 100% (0% Machine Translation)
 - Himatsubushi 100% (0.07% Machine Translation)
+- Himatsubushi Afterparty 100% (6.6% Machine Translation)
 - Meakashi 100% (0.05% Machine Translation)
 - Hirukowashi 0%
 - Kageboushi 100% (0% Machine Translation)
@@ -104,6 +110,7 @@ Gift:
 - Kamikashimashi 100% (100% Machine Translation)
 - Hinamizawa Bus Stop 100% (100% Machine Translation)
 - Batsukoishi 100% (100% Machine Translation)
+- "Gift" Afterparty 0%
 
 TIPS: 164/188
 

@@ -76,7 +76,7 @@ Okinomiya Police Station Report:
 - Sometsushi Afterparty 100% (0% Machine Translation)
 - Epilogue 100% (0% Machine Translation)
 
-Matropolitan Public Security 7th Room Case File:
+Metropolitan Public Security 7th Room Case File:
 - Prologue 100% (0% Machine Translation)
 - Himatsubushi 100% (0.07% Machine Translation)
 - Himatsubushi Afterparty 100% (6.6% Machine Translation)

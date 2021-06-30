@@ -164,7 +164,7 @@ Other:
 - [07th mod](https://07th-mod.com/home/) for tremendous work put to translations of console exclusive chapters and help with understanding some technical things about game engine (not directly involved with this project)
 - Kaitoein & Bonciel - for Saikoroshi translation (not directly involved with this project)
 - xPearse Scanlations - for providing machine translations for Hou chapters (not directly involved with this project)
-- [DCNick3](https://github.com/DCNick3) for ShinDataUtil, mainly for scenario decompilator/compilator. Without it this project wouldn't even start.
+- [DCNick3](https://github.com/DCNick3) for ShinDataUtil, mainly for scenario decompiler/compiler. Without it this project wouldn't even start.
 - [Neurochitin](https://gitlab.com/Neurochitin) for providing scripts that helped finish this project faster.
 - ~Xanu for help with translating and proofreading some parts of game
 - ~LeatherCupcake for testing

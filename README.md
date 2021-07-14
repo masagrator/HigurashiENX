@@ -123,6 +123,7 @@ TIPS: 164/188
 - Replace all machine translated parts with real translation
 - Polish style matching of images from the same group
 - Implement Hajisarashi and Kotohogushi translations from 07th mod few months after official release
+- Update mod to support 1.2.0 update
 
 ---
 

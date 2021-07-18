@@ -33,4 +33,4 @@
 0x1398AE	Rena	レナ
 0x1398B5	Mion	魅音
 0x1398BC	Satoko	沙都子
-0x138B0D  Reset settings? 設定を初期値に戻します。よろしいですか？
+0x138B0D	Reset settings?	設定を初期値に戻します。よろしいですか？

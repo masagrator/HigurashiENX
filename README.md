@@ -42,7 +42,7 @@ Instructions:
 - Script supports mainly Shift-JIS, so implementing any other language needs additional effort. PC release is not bothered by this limiation.
 - Game doesn't support italics, they are changed so word is between `*`
 - Mod is using special patch that not only translates strings stored in executable, but also allows for loading third ROM file on top of data.rom and patch.rom. This allows us to share ROM with only those files that are necessary for this mod (thanks for DCNick3 for that).
-- Currently game is not working on Yuzu. RyujinX status is unknown. https://github.com/yuzu-emu/yuzu/issues/3439
+- Currently game is not working on Yuzu. On RyujinX according to various reports it's working. https://github.com/yuzu-emu/yuzu/issues/3439
 - We won't work on porting this mod to PS4 version of game.
 - Mod translated only required minimum of images. We are not bothered by images that are using japanese and english texts at the same time (except for wrongly translated images).
 - Mod is using `shindatautil` layouting function for automatic injection of break lines. Game itself is breaking lines by any last fitting character, not by last fitting space only.

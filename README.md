@@ -19,7 +19,7 @@ Mod is partially using machine translation.
 Repo is targeting Windows 10 with WSL Ubuntu installed. All tools and scripts are compatible with linux distros like Ubuntu, but because I don't know anything about shell files, I'm focusing on Windows only.
 
 Requirements:
-- Python 3 (and `py7zr` library)
+- Python 3
 
 Instructions:
 1. Download repo with all submodules

@@ -49,7 +49,7 @@ with open("exefs_natsumi.txt", 'r', encoding="UTF-8") as f:
 
 print("Writing patch...")
 
-with open("atmosphere/exefs_patches/HigurashiEN/0C28B121BAC7801C3DCFF93B81820BFA.ips", "wb") as f:
+with open("atmosphere/exefs_patches/HigurashiEN/215EEA8204AEEFCF09FD193A7EC7A070.ips", "wb") as f:
     f.write(b"IPS32")
     for i in range(0, len(Offsets)):
         f.write(numpy.uint32(int(Offsets[i], 16)+0x100).byteswap())

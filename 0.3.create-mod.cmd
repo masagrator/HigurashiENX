@@ -2,7 +2,7 @@
 mkdir atmosphere\exefs_patches\HigurashiEN > NUL 2> NUL
 mkdir atmosphere\contents\0100F6A00A684000\romfs > NUL 2> NUL
 mkdir patch\picture\c > NUL 2> NUL
-mkdir patch\picture\e > NUL 2> NUL
+mkdir patch\picture\t > NUL 2> NUL
 mkdir scenarionew > NUL 2> NUL
 @echo on
 ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe txa-encode extracted\adv patch\adv.txa
@@ -23,7 +23,7 @@ ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe txa-encode extracted\tipsg
 ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe txa-encode extracted\tipsmode patch\tipsmode.txa
 ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe txa-encode extracted\title patch\title.txa
 for %%G in (images\picture\c\*.png) do ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe pic-encode %%G %~p0patch\picture\c\%%~nG.pic
-for %%G in (images\picture\e\*.png) do ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe pic-encode %%G %~p0patch\picture\e\%%~nG.pic
+for %%H in (images\picture\t\*.png) do ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe pic-encode %%H %~p0patch\picture\t\%%~nH.pic
 wsl patch --verbose -i 1diffasm.diff -o scenarionew/listing.temp scenario/listing.asm
 python 1ScriptEXEFS.py
 python 2ScriptJSON.py

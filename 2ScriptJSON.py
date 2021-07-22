@@ -161,7 +161,12 @@ for i in range(0, len(Listing_buffer)):
             NewString.append(LOGSET_New[log_offset])
             log_offset = log_offset + 1
             continue
-    NewString.append(Listing_buffer[i]) 
+    NewString.append(Listing_buffer[i])
+
+if (offset != MSGSET_Count): raise ValueError("Wrong MSGSET Count. Expected: %d, got: %d\nLine (can slightly differ): %s" % (MSGSET_Count, offset, MSGSET_Orig[offset]))
+elif (chap_offset != len(SAVEINFO_Orig)): raise ValueError("Wrong chap_offset. Expected: %d, got: %d\nLine: %s" % (len(SAVEINFO_Orig), chap_offset, SAVEINFO_Orig[chap_offset]))
+elif (choice_offset != len(SELECT_Orig)): raise ValueError("Wrong choice_offset. Expected: %d, got: %d\nLine: %s" % (len(SELECT_Orig), choice_offset, SELECT_Orig[choice_offset]))
+elif (log_offset != len(LOGSET_Orig)): raise ValueError("Wrong log_offset. Expected: %d, got: %d\nLine: %s" % (len(LOGSET_Orig), log_offset, LOGSET_Orig[log_offset]))
 
 newlisting = open("scenarionew/listing.dat", "w", encoding="UTF-8")
 

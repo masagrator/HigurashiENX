@@ -18,9 +18,9 @@ for i in range(0, len(Offsets)):
 
 pointer1_start = 0x1BE230
 pointer1_diff = 0x20
-pointer2_start = 0xfbaf8
+pointer2_start = 0xFBB10
 pointer2_diff = 0x18
-text_start = 0x138DB8
+text_start = 0x138F14
 
 with open("exefs_fragments.txt", 'r', encoding="UTF-8") as f:
     Texts2 = [line.split("\t", -1)[0] for line in f]
@@ -40,7 +40,7 @@ if (sizeENG > sizeJAP):
     input("Press Enter to continue...")
     sys.exit()
 
-address = 0x1398c6
+address = 0x139A22
 shift = -3
 Text = "Natsumi"
 
@@ -49,7 +49,7 @@ with open("exefs_natsumi.txt", 'r', encoding="UTF-8") as f:
 
 print("Writing patch...")
 
-with open("atmosphere/exefs_patches/HigurashiEN/0C28B121BAC7801C3DCFF93B81820BFA.ips", "wb") as f:
+with open("atmosphere/exefs_patches/HigurashiEN/215EEA8204AEEFCF09FD193A7EC7A070.ips", "wb") as f:
     f.write(b"IPS32")
     for i in range(0, len(Offsets)):
         f.write(numpy.uint32(int(Offsets[i], 16)+0x100).byteswap())
@@ -78,10 +78,10 @@ with open("atmosphere/exefs_patches/HigurashiEN/0C28B121BAC7801C3DCFF93B81820BFA
     f.write(numpy.uint16(len(Text.encode("UTF-8"))+1).byteswap())
     f.write(bytes(Text.encode("UTF-8")))
     f.write(numpy.uint8(0))
-    f.write(b"\x00\x05\x52\x6c")
+    f.write(b"\x00\x05\x55\x24")
     f.write(b"\x00\x0c")
     f.write(b"\x04\x00\x00\x14\xE8\xA3\x00\x39\x11\x00\x00\x14")
-    f.write(b"\x00\x05\x53\x20")
+    f.write(b"\x00\x05\x55\xD8")
     f.write(b"\x00\x10")
     f.write(b"\xE8\xA3\x40\x39\x68\x00\x08\x36\xA8\x0D\x80\x52\xD1\xFF\xFF\x17")
     f.write(b"EEOF")

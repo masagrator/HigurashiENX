@@ -4,7 +4,7 @@ mkdir scenario > NUL 2> NUL
 @echo on
 ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe rom-scenario-decompile ROMs\patch.rom main.snr scenario
 ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe rom-txa-extract ROMs\patch.rom cgmode.txa extracted\cgmode
-ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe rom-txa-extract ROMs\data.rom adv.txa extracted\adv
+ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe rom-txa-extract ROMs\patch.rom adv.txa extracted\adv
 ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe rom-txa-extract ROMs\data.rom bgmmode.txa extracted\bgmmode
 ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe rom-txa-extract ROMs\data.rom charsel.txa extracted\charsel
 ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe rom-txa-extract ROMs\data.rom chart.txa extracted\chart

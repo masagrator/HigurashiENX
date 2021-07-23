@@ -119,7 +119,7 @@ TIPS: 164/188
 - Add translations of LOGSET entries
 - Replace all machine translated parts with real translation
 - Polish style matching of images from the same group
-- Implement Hajisarashi and Kotohogushi translations from 07th mod few months after official release
+- Implement Hajisarashi, Kotohogushi and Hou Afterparty translations from 07th mod few months after official release
 
 ---
 

@@ -120,7 +120,7 @@ for x in range(0, len(Filenames)):
                 Main[i]['TextJPN']
                 ))
             LOGSET_New.append("        LOGSET L\"%s@r%s%s\"\n" % (
-                Main[i].get("NamesENG", Main[i]['NamesJPN']),
+                Main[i].get("NamesENG", ""),
                 Main[i].get("PreTextTags", ""),
                 Main[i]['TextENG']
                 ))

@@ -1,4 +1,5 @@
 import json
+import sys
 
 Filenames = []
 MSGSET_Orig = []
@@ -20,8 +21,15 @@ for x in range(0, len(Filenames)):
 
     file = open("HigurashiENX-texts/%s.json" % (Filenames[x]), "r", encoding="UTF-8")
 
-    Temp = json.load(file)
-    file.close()
+    try:
+        Temp = json.load(file)
+    except BaseException as err:
+        print("Issue with file: %s\nerrorType: %s" % (Filenames[x], type(err)))
+        print("errorInfo: %s" % (err))
+        file.close()
+        programPause = input("Press the <ENTER> key to continue...")
+        sys.exit(1)
+    
     Main = Temp['Main']
 
     for i in range(0, len(Main)):

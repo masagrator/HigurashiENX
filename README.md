@@ -117,7 +117,6 @@ TIPS: 164/188
 
 # Plans
 
-- Add translations of LOGSET entries
 - Replace all machine translated parts with real translation
 - Polish style matching of images from the same group
 - Implement Hajisarashi, Kotohogushi and Hou Afterparty translations from 07th mod few months after official release

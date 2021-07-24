@@ -2,11 +2,13 @@
 
 English translation mod for Nintendo Switch version of "Higurashi no Naku Koro ni Hou" (ひぐらしのなく頃に奉).
 
+1.2.0 update is required.
+
 Mod is partially using machine translation.
 
 ---
 
-# Download and installation (only for 1.1.0 update)
+# Download and installation
 
 1. Download mod from [HERE](https://drive.google.com/file/d/1spCS77JetWtbe0G_QRxNfnwmB40Et8Tf/view?usp=sharing)
 2. Copy `atmosphere` folder to root of sdcard used in your Switch
@@ -14,7 +16,7 @@ Mod is partially using machine translation.
 
 ---
 
-# Compiling and installing mod manually (only for 1.2.0 update)
+# Compiling and installing mod manually
 
 Repo is targeting Windows 10 with WSL Ubuntu installed. All tools and scripts are compatible with linux distros like Ubuntu, but because I don't know anything about shell files, I'm focusing on Windows only.
 

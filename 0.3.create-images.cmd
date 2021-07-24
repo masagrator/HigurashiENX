@@ -1,9 +1,6 @@
 @echo off
-mkdir atmosphere\exefs_patches\HigurashiEN > NUL 2> NUL
-mkdir atmosphere\contents\0100F6A00A684000\romfs > NUL 2> NUL
 mkdir patch\picture\c > NUL 2> NUL
 mkdir patch\picture\t > NUL 2> NUL
-mkdir scenarionew > NUL 2> NUL
 @echo on
 ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe txa-encode extracted\adv patch\adv.txa
 ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe txa-encode extracted\bgmmode patch\bgmmode.txa
@@ -22,16 +19,7 @@ ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe txa-encode extracted\snrse
 ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe txa-encode extracted\tipsget patch\tipsget.txa
 ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe txa-encode extracted\tipsmode patch\tipsmode.txa
 ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe txa-encode extracted\title patch\title.txa
-for %%G in (images\picture\c\*.png) do ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe pic-encode %%G %~p0patch\picture\c\%%~nG.pic
-for %%H in (images\picture\t\*.png) do ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe pic-encode %%H %~p0patch\picture\t\%%~nH.pic
-wsl patch --verbose -i 1diffasm.diff -o scenarionew/listing.temp scenario/listing.asm
-python 1ScriptEXEFS.py
-python 2ScriptJSON.py
-@echo, 
-@echo Compiling scenario...
-ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe scenario-layout extracted\newrodin.fnt scenarionew\listing.dat scenarionew\listing.asm
-ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe scenario-build scenarionew patch\main.snr
-@echo Packing ROM file...
-ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe rom-build-from-dir atmosphere/contents/0100F6A00A684000/romfs/patch.rmm patch
-@echo Finished executing script.
+for %%G in (images\picture\c\*.png) do ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe pic-encode %%G %~dp0patch\picture\c\%%~nG.pic
+for %%H in (images\picture\t\*.png) do ShinDataUtil\bin\Debug\netcoreapp5.0\shindatautil.exe pic-encode %%H %~dp0patch\picture\t\%%~nH.pic
+@echo Finished creating images.
 pause

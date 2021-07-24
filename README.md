@@ -22,14 +22,15 @@ Requirements:
 - Python 3
 
 Instructions:
-1. Download repo with all submodules
-2. Compile `ShinDataUtil` (for example with `Microsoft Visual Studio 2019`)
-3. Extract `data.rom` and `patch.rom` from romfs of game. You can use [NXDumpTool](https://github.com/DarkMatterCore/nxdumptool/releases) for that. Put those files to `ROMs` folder in downloaded repo.
-4. Run `0.1.unpack-rom-files.cmd` without Administrator privileges
-5. Run `0.2.replace-images.cmd` without Administrator privileges
-6. Run `0.3.create-mod.cmd` without Administrator privileges
-7. Copy `atmosphere` folder to the root of sdcard used in your Switch.
-8. Run game.
+1. Download repo with all submodules,
+2. Compile `ShinDataUtil` (for example with `Microsoft Visual Studio 2019`),
+3. Extract `data.rom` and `patch.rom` from romfs of game. You can use [NXDumpTool](https://github.com/DarkMatterCore/nxdumptool/releases) for that. Put those files to `ROMs` folder in downloaded repo,
+4. Run `0.1.unpack-rom-files.cmd` without Administrator privileges,
+5. Run `0.2.replace-images.cmd` without Administrator privileges,
+6. Run `0.3.create-images.cmd` without Administrator privileges,
+7. Run `0.4.create-mod.cmd` without Administrator privileges,
+8. Copy `atmosphere` folder to the root of sdcard used in your Switch,
+9. Run game.
 
 ---
 

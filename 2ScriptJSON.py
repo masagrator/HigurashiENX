@@ -26,10 +26,10 @@ for x in range(0, len(Filenames)):
     except BaseException as err:
         print("Issue with file: %s\nerrorType: %s" % (Filenames[x], type(err)))
         print("errorInfo: %s" % (err))
-        file.close()
         programPause = input("Press the <ENTER> key to continue...")
         sys.exit(1)
     
+    file.close()
     Main = Temp['Main']
 
     for i in range(0, len(Main)):
@@ -120,7 +120,7 @@ for x in range(0, len(Filenames)):
                 Main[i]['TextJPN']
                 ))
             LOGSET_New.append("        LOGSET L\"%s@r%s%s\"\n" % (
-                Main[i].get("NamesJPN", ""),
+                Main[i].get("NamesENG", Main[i]['NamesJPN']),
                 Main[i].get("PreTextTags", ""),
                 Main[i]['TextENG']
                 ))

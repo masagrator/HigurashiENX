@@ -39,15 +39,14 @@ Instructions:
 # Notes
 - Project started at 4th January 2021, first release was in 29th June 2021
 - This project is practically in infinite beta. Expect bugs like not playing audio files, weird break lines, crashing related to broken tags, etc.
+- We are providing support only for Nintendo Switch users with Atmosphere. Any other way of using this mod (different CFW or emulators) are not supported by us, but this doesn't mean it won't work on them.
 - This project was not made with purpose to make easier to translate to other languages. JSON files are containing texts only for sending corrections and translation updates. They don't have any readable way to understand how SELECT is forcing jumps and sets flags.
 - Script supports mainly Shift-JIS, so implementing any other language needs additional effort. PC release is not bothered by this limiation.
 - Game doesn't support italics, they are changed so word is between `*`
 - Mod is using special patch that not only translates strings stored in executable, but also allows for loading third ROM file on top of data.rom and patch.rom. This allows us to share ROM with only those files that are necessary for this mod (thanks for DCNick3 for that).
-- Currently game is not working on Yuzu. On RyujinX according to various reports it's working. https://github.com/yuzu-emu/yuzu/issues/3439
 - We won't work on porting this mod to PS4 version of game.
 - Mod translated only required minimum of images. We are not bothered by images that are using japanese and english texts at the same time (except for wrongly translated images).
 - Mod is using `shindatautil` layouting function for automatic injection of break lines. Game itself is breaking lines by any last fitting character, not by last fitting space only.
-- We are providing support only for Nintendo Switch users with Atmosphere. Any other way of using this mod is not supported by us.
 - It is unknown if mod is compatible with physical version "EG THE BEST". Game must have titleid "0100F6A00A684000" which is used by first physical release and E-Shop version.
 - `Oyashiro Shock` is not translated because of complicated nature of answers stored in executable which without making plugin seems impossible/very hard to replace.
 - PIC images are packed to 7z for storage purpose as they are currently uncompressed. When they will be using compression, they will be stored unpacked as png.

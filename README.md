@@ -48,7 +48,7 @@ Instructions:
 - Mod translated only required minimum of images. We are not bothered by images that are using japanese and english texts at the same time (except for wrongly translated images).
 - Mod is using `shindatautil` layouting function for automatic injection of break lines. Game itself is breaking lines by any last fitting character, not by last fitting space only.
 - It is unknown if mod is compatible with physical version "EG THE BEST". Game must have titleid "0100F6A00A684000" which is used by first physical release and E-Shop version.
-- `Oyashiro Shock` is not translated because of complicated nature of answers stored in executable which without making plugin seems impossible/very hard to replace.
+- `Oyashiro Shock` is in work as plugin which won't be compatible with any emulator to date.
 - Hirukowashi, Hajisarashi and Kotohogushi have an option to mark those chapters as finished without playing them at the beginning of each one, because finishing them is required to play next chapters.
 
 ---

@@ -7,3 +7,6 @@
 [submodule "images"]
 	path = images
 	url = https://github.com/masagrator/HigurashiENX-images
+[submodule "OyashiroShock"]
+	path = OyashiroShock
+	url = https://github.com/masagrator/HigurashiENX-OyashiroShock

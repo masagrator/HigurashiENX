@@ -22,7 +22,7 @@ for x in range(0, len(Filenames)):
     file = open("HigurashiENX-texts/%s.json" % (Filenames[x]), "r", encoding="UTF-8")
 
     try:
-        Temp = json.load(file)
+        Main = json.load(file)
     except BaseException as err:
         print("Issue with file: %s\nerrorType: %s" % (Filenames[x], type(err)))
         print("errorInfo: %s" % (err))
@@ -30,7 +30,6 @@ for x in range(0, len(Filenames)):
         sys.exit(1)
     
     file.close()
-    Main = Temp['Main']
 
     for i in range(0, len(Main)):
         if (Main[i]['type'] == "MSGSET"):

@@ -49,7 +49,7 @@ Instructions:
 - Mod is using `shindatautil` layouting function for automatic injection of break lines. Game itself is breaking lines by any last fitting character, not by last fitting space only.
 - This mod is also compatible with the physical edition "EG THE BEST" without any change required.
 - `Oyashiro Shock` is in work as plugin which won't be compatible with any emulator to date.
-- Hirukowashi, Hajisarashi and Kotohogushi have an option to mark those chapters as finished without playing them at the beginning of each one, because finishing them is required to play next chapters.
+- Hirukowashi has an option to mark it as finished without playing it at the beginning of chapter, because finishing it is required to play next chapters.
 
 ---
 
@@ -100,8 +100,8 @@ World of Fragments:
 - Miotsukushi Omote 100% (3 lines Machine Translated)
 - Miotsukushi Ura 100% (0% Machine Translation)
 - Saikoroshi 100% (0.1% Machine Translation)
-- Kotohogushi 0%
-- Hajisarashi 0%
+- Kotohogushi 100% (0% Machine Translation)
+- Hajisarashi 100% (0% Machine Translation)
 - Epilogue 100% (0% Machine Translation)
 
 Gift:
@@ -109,9 +109,9 @@ Gift:
 - Kamikashimashi 100% (100% Machine Translation)
 - Hinamizawa Bus Stop 100% (100% Machine Translation)
 - Batsukoishi 100% (100% Machine Translation)
-- "Gift" Afterparty 0%
+- "Gift" Afterparty 100% (0% Machine Translation)
 
-TIPS: 164/188
+TIPS: 168/188
 
 ---
 
@@ -119,7 +119,6 @@ TIPS: 164/188
 
 - Replace all machine translated parts with real translation
 - Polish style matching of images from the same group
-- Implement Hajisarashi, Kotohogushi and Hou Afterparty translations from 07th mod few months after official release
 
 ---
 

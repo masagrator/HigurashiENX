@@ -80,7 +80,7 @@ Metropolitan Public Security 7th Room Case File:
 - Himatsubushi 100% (0.07% Machine Translation)
 - Himatsubushi Afterparty 100% (6.6% Machine Translation)
 - Meakashi 100% (0.05% Machine Translation)
-- Hirukowashi 0%
+- Hirukowashi 100% (0% Machine Translation)
 - Kageboushi 100% (0% Machine Translation)
 - Epilogue 100% (0% Machine Translation)
 
@@ -99,7 +99,7 @@ World of Fragments:
 - Matsuribayashi 100% (1% Machine Translation)
 - Miotsukushi Omote 100% (3 lines Machine Translated)
 - Miotsukushi Ura 100% (0% Machine Translation)
-- Saikoroshi 100% (0.1% Machine Translation)
+- Saikoroshi 100% (0% Machine Translation)
 - Kotohogushi 100% (0% Machine Translation)
 - Hajisarashi 100% (0% Machine Translation)
 - Epilogue 100% (0% Machine Translation)
@@ -108,10 +108,10 @@ Gift:
 - Higurashi Outbreak 100% (100% Machine Translation)
 - Kamikashimashi 100% (100% Machine Translation)
 - Hinamizawa Bus Stop 100% (100% Machine Translation)
-- Batsukoishi 100% (100% Machine Translation)
+- Batsukoishi 100% (1 line Machine Translated)
 - "Gift" Afterparty 100% (0% Machine Translation)
 
-TIPS: 168/188
+TIPS: 169/188
 
 ---
 

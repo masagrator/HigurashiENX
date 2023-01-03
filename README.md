@@ -10,7 +10,7 @@ Mod is partially using machine translation.
 
 # Download and installation
 
-1. Download mod from [HERE](https://drive.google.com/file/d/1spCS77JetWtbe0G_QRxNfnwmB40Et8Tf/view?usp=sharing)
+1. Download mod from Releases
 2. Copy `atmosphere` folder to root of sdcard used in your Switch
 3. Run game.
 

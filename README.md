@@ -140,8 +140,8 @@ Texts:
 - https://github.com/07th-mod/himatsubushi
 - https://github.com/07th-mod/watanagashi
 - https://github.com/07th-mod/onikakushi
+- https://github.com/07th-mod/higurashi-rei
 - https://twitter.com/furudejinja/status/1330012660377686017
-- http://pearsehillock.blogspot.com/2015/07/higurashi-no-naku-koro-ni-rei-v11.html
 
 Other:
 - https://www.youtube.com/channel/UCCgK9pgiq0Bt73ESMjQfARg
@@ -158,7 +158,6 @@ Other:
 # Thanks to
 - MangaGamer for releasing 8 main chapters in English (not directly involved with this project). Official Steam release available here: https://store.steampowered.com/bundle/709/Higurashi_When_They_Cry_Hou/
 - [07th mod](https://07th-mod.com/home/) for tremendous work put to translations of console exclusive chapters and help with understanding some technical things about game engine (not directly involved with this project)
-- Kaitoein & Bonciel - for Saikoroshi translation (not directly involved with this project)
 - xPearse Scanlations - for providing machine translations for Hou chapters (not directly involved with this project)
 - [DCNick3](https://github.com/DCNick3) for ShinDataUtil, mainly for scenario decompiler/compiler. Without it this project wouldn't even start.
 - [Neurochitin](https://gitlab.com/Neurochitin) for providing scripts that helped finish this project faster.

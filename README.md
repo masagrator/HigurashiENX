@@ -2,7 +2,7 @@
 
 English translation mod for Nintendo Switch version of "Higurashi no Naku Koro ni Hou" (ひぐらしのなく頃に奉).
 
-1.2.0 update is required.
+1.2.0 or 2.0.0 update is required (for 2.0.0+ any DLC is not supported while mod is installed).
 
 Mod is partially using machine translation.
 

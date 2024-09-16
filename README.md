@@ -2,7 +2,7 @@
 
 English translation mod for Nintendo Switch version of "Higurashi no Naku Koro ni Hou" (ひぐらしのなく頃に奉).
 
-1.2.0 or 2.0.0 update is required (for 2.0.0+ any DLC is not supported while mod is installed).
+1.2.0 or newer update is required (for 2.0.0+ any DLC is not supported while mod is installed).
 
 Mod is partially using machine translation.
 
@@ -57,18 +57,18 @@ Instructions:
 
 Okinomiya Police Station Report:
 - Prologue 100% (0% Machine Translation)
-- Common Route 100% (9.4% Machine Translation)
-- Rena Route 100% (100% Machine Translation)
-- Mion Route 100% (20.8% Machine Translation)
-- Satoko Route 100% (3.8% Machine Translation)
-- Natsumi Route 100% (30% Machine Translation)
+- Common Route 100% (13% Machine Translation)
+- Rena Route 100% (0% Machine Translation)
+- Mion Route 100% (0% Machine Translation)
+- Satoko Route 100% (0% Machine Translation)
+- Natsumi Route 100% (0% Machine Translation)
 - Onikakushi 100% (0% Machine Translation)
-- Onikakushi Afterparty 100% (3.9% Machine Translation)
-- Watanagashi 100% (0.03% Machine Translation)
-- Watanagashi Afterparty 100% (1 line Machine Translated)
-- Tatarigoroshi 100% (1.1% Machine Translation)
-- Tatarigoroshi Afterparty 100% (7.4% Machine Translation)
-- Tsukiotoshi 100% (1 line Machine Translated)
+- Onikakushi Afterparty 100% (0% Machine Translation)
+- Watanagashi 100% (0% Machine Translation)
+- Watanagashi Afterparty 100% (0% Machine Translation)
+- Tatarigoroshi 100% (0% Machine Translation)
+- Tatarigoroshi Afterparty 100% (0% Machine Translation)
+- Tsukiotoshi 100% (0% Machine Translation)
 - Taraimawashi 100% (0% Machine Translation)
 - Taraimawashi Afterparty 100% (0% Machine Translation)
 - Someutsushi 100% (0% Machine Translation)
@@ -77,9 +77,9 @@ Okinomiya Police Station Report:
 
 Metropolitan Public Security 7th Room Case File:
 - Prologue 100% (0% Machine Translation)
-- Himatsubushi 100% (0.07% Machine Translation)
+- Himatsubushi 100% (0% Machine Translation)
 - Himatsubushi Afterparty 100% (6.6% Machine Translation)
-- Meakashi 100% (0.05% Machine Translation)
+- Meakashi 100% (0% Machine Translation)
 - Hirukowashi 100% (0% Machine Translation)
 - Kageboushi 100% (0% Machine Translation)
 - Epilogue 100% (0% Machine Translation)
@@ -105,9 +105,9 @@ World of Fragments:
 - Epilogue 100% (0% Machine Translation)
 
 Gift:
-- Higurashi Outbreak 100% (100% Machine Translation)
-- Kamikashimashi 100% (100% Machine Translation)
-- Hinamizawa Bus Stop 100% (100% Machine Translation)
+- Higurashi Outbreak 100% (0% Machine Translation)
+- Kamikashimashi 100% (4 lines Machine Translated)
+- Hinamizawa Bus Stop 100% (0% Machine Translation)
 - Batsukoishi 100% (1 line Machine Translated)
 - "Gift" Afterparty 100% (0% Machine Translation)
 
@@ -156,6 +156,7 @@ Other:
 ---
 
 # Thanks to
+- Crispy for providing proper translation of parts that I have machine translated
 - MangaGamer for releasing officially Higurashi chapters in English (not directly involved with this project). Official Steam release available here: https://store.steampowered.com/bundle/709/Higurashi_When_They_Cry_Hou/
 - [07th mod](https://07th-mod.com/home/) for tremendous work put to translations of console exclusive chapters and help with understanding some technical things about game engine (not directly involved with this project)
 - xPearse Scanlations - for providing machine translations for Hou chapters (not directly involved with this project)

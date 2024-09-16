@@ -57,7 +57,7 @@ Instructions:
 
 Okinomiya Police Station Report:
 - Prologue 100% (0% Machine Translation)
-- Common Route 100% (13% Machine Translation)
+- Common Route 100% (10.6% Machine Translation)
 - Rena Route 100% (0% Machine Translation)
 - Mion Route 100% (0% Machine Translation)
 - Satoko Route 100% (0% Machine Translation)
